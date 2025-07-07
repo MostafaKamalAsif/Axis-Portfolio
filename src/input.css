@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme 
+{ 
+   /* color start  */
+    --color-Hcolor: #D9D9D9;
+   /* color end */
+
+   /* container start  */
+    --spacing-mContainer: 1240px; 
+     /* container start  */
+     /* Google font family start  */
+      --font-Roboto: "Roboto", "sans-serif"; 
+      --font-Inter: "Inter", "sans-serif"; 
+      --font-Michroma: "Michroma", "sans-serif"; 
+      --font-Syne: "Syne", "sans-serif"; 
+      /* Google font family End  */
+      --color-regal-gradialnt: [linear-gradient(to bottom, #858585, #6a6a6a, #515151, #393939, #222222)];
+}
