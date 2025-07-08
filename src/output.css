@@ -2018,6 +2018,12 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
   .carousel-item {
     box-sizing: content-box;
     display: flex;
@@ -2236,14 +2242,8 @@
   .w-52 {
     width: calc(var(--spacing) * 52);
   }
-  .w-\[50\%\] {
-    width: 50%;
-  }
   .w-\[70\%\] {
     width: 70%;
-  }
-  .w-\[80\%\] {
-    width: 80%;
   }
   .w-\[90\%\] {
     width: 90%;
@@ -2253,9 +2253,6 @@
   }
   .w-\[384px\] {
     width: 384px;
-  }
-  .w-full {
-    width: 100%;
   }
   .max-w-smContainer {
     max-width: var(--spacing-smContainer);
@@ -2512,6 +2509,9 @@
   .pt-12\.5 {
     padding-top: calc(var(--spacing) * 12.5);
   }
+  .pt-\[20\] {
+    padding-top: 20;
+  }
   .pt-\[30px\] {
     padding-top: 30px;
   }
@@ -2598,9 +2598,6 @@
   }
   .pl-7\.5 {
     padding-left: calc(var(--spacing) * 7.5);
-  }
-  .pl-10 {
-    padding-left: calc(var(--spacing) * 10);
   }
   .pl-\[80px\] {
     padding-left: 80px;
