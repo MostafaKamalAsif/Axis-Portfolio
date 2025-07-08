@@ -10,6 +10,8 @@
 
    /* container start  */
     --spacing-mContainer: 1240px; 
+     --spacing-mdContainer: 700px;
+    --spacing-smContainer: 580px; 
      /* container start  */
      /* Google font family start  */
       --font-Roboto: "Roboto", "sans-serif"; 
