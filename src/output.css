@@ -1947,11 +1947,6 @@
     overflow-y: auto;
     overscroll-behavior: contain;
   }
-  .drawer-content {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    min-width: calc(0.25rem * 0);
-  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -2017,9 +2012,6 @@
   }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
-  }
-  .mt-5 {
-    margin-top: calc(var(--spacing) * 5);
   }
   .mt-7 {
     margin-top: calc(var(--spacing) * 7);
@@ -2509,9 +2501,6 @@
   .pt-12\.5 {
     padding-top: calc(var(--spacing) * 12.5);
   }
-  .pt-\[20\] {
-    padding-top: 20;
-  }
   .pt-\[30px\] {
     padding-top: 30px;
   }
@@ -2807,6 +2796,11 @@
       margin: calc(var(--spacing) * 0);
     }
   }
+  .md\:mt-0 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
@@ -3023,6 +3017,11 @@
   .lg\:left-\[50\%\] {
     @media (width >= 64rem) {
       left: 50%;
+    }
+  }
+  .lg\:mt-0 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 0);
     }
   }
   .lg\:flex {
